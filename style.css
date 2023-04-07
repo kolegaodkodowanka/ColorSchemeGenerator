@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-color: #1C1C1C;
+    color:#D5D4D8;
+}
+h1 {
+    text-align: center;
+     font-size: 3rem;
+     font-weight: bold;
+     margin-top: 0.5em;
+}
+
+
+#color-changer {
+    display: block;
+    margin: 1.5em auto;
+    width: 80vh;
+    height: 80vh;
+    background-color: #1F2937;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 55px -31px rgba(66, 68, 90, 1);
+-moz-box-shadow: 0px 0px 55px -31px rgba(66, 68, 90, 1);
+box-shadow: 0px 0px 55px -31px rgba(66, 68, 90, 1);
+}
+ 
+form {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 1em 0 1em;
+    
+}
+
+#color-picker {
+    width: 51px;
+    height: 34px;
+    background-color: #3D4B60;
+    border: none;
+}
+
+#color-select {
+    width: 50vh;
+    height: 3em;
+    background: #1F293A;
+    color:  #D5D4D8;
+    font-weight: bold;
+    padding-left: 0.8em;
+}
+
+#get-color-scheme {
+    width: 15vh;
+    height: 42px;
+    background: #3D4B60;
+    color:  #D5D4D8;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+#color-panels {
+    display: flex;
+    padding-top: 2em;
+}
+
+.panel {
+     width: 20%;
+     text-align: center;
+}
+.color-block {
+    height: 63vh;
+}
+.color-hex {
+ display: block;
+ padding: 1em 0em;
+}
